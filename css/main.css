@@ -1,4 +1,56 @@
+body{
+	background-color: #fff;
+	color: #999; 
+}
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
 img{
 	width: 250px;
 	height: 300px;
+}
+
+a{
+	text-decoration: none;
+	list-style: none;
+}
+
+#logo{
+	text-align: center;
+	margin: 0;
+}
+header{
+	background-color: #6ab47b;
+	border-color: #599a68;
+}
+h1, h2{
+	color: #fff;
+}
+nav{
+	background: #599a68;
+}
+
+nav a, nav a:visited{
+	color: #fff;
+}
+
+nav a.selected, nav a:hover{
+	color: #32673f;
+}
+
+
+
+
+
+footer{
+	color: white;
+	background-color: orange;
+}
+
+footer img{
+	width: 20px;
+	height: 50px;
 }
