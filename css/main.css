@@ -20,6 +20,10 @@ img{
   max-width: 100%;
 }
 
+h3{
+  margin: 0 0 1em 0;
+}
+
 
 
 /**********************************
@@ -119,6 +123,47 @@ Page : Portfolio
   font-size: 0.75em;
   color: #bdc3c7;
 }
+
+/**********************************
+Page : About
+***********************************/
+.profilePhoto{
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/**********************************
+Page : Contact
+***********************************/
+.contactInfo{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contactInfo a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contactInfo li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contactInfo li.email a{
+  background-image: url('../img/email.png');
+}
+
+.contactInfo li.twitter a{
+  background-image: url('../img/twitter.png');
+}
+
 
 /**********************************
 COLORS
